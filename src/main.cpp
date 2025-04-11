@@ -11,7 +11,7 @@
 #include "ImageProcessor.hpp"
 #include "QuadTreeCompressor.hpp"
 #include "Utils.hpp"
-// #include "GifGenerator.hpp"
+#include "GifGenerator.hpp"
 
 // Helper function to display program usage
 void showUsage(const char* programName) {
@@ -229,15 +229,15 @@ int main(int argc, char* argv[]) {
             }
         }
 
-        // // Generate GIF animation
-        // if (!options.gifFile.empty()) {
-        //     std::cout << "Generating GIF animation...\n";
-        //     if (GifGenerator::generateCompressionGif(image, tree, options.gifFile)) {
-        //         std::cout << "GIF animation saved to: " << options.gifFile << "\n";
-        //     } else {
-        //         std::cerr << "Error: Failed to generate GIF animation.\n";
-        //     }
-        // }
+        // Generate GIF animation
+        if (!options.gifFile.empty()) {
+            std::cout << "Generating GIF animation...\n";
+            if (GifGenerator::generateCompressionGif(image, tree, options.gifFile)) {
+                std::cout << "GIF animation saved to: " << options.gifFile << "\n";
+            } else {
+                std::cerr << "Error: Failed to generate GIF animation.\n";
+            }
+        }
 
         // Calculate tree depth
         int treeDepth = calculateTreeDepth(tree.getRoot());

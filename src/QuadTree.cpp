@@ -101,18 +101,18 @@ void QuadTreeNode::subdivide() {
     int halfWidth = width / 2;
     int halfHeight = height / 2;
 
-    int remWidth = width - halfWidth * 2;
-    int remHeight = height - halfHeight * 2;
+    // Calculate remaining width and height for odd dimensions
+    int remWidth = width - halfWidth;
+    int remHeight = height - halfHeight;
 
-    // Create four child nodes with adjusted dimensions.
+    // Create four child nodes with adjusted dimensions
     children[0] = new QuadTreeNode(x, y, halfWidth, halfHeight);
-    children[1] = new QuadTreeNode(x + halfWidth, y, halfWidth + remWidth, halfHeight);
-    children[2] = new QuadTreeNode(x, y + halfHeight, halfWidth, halfHeight + remHeight);
-    children[3] = new QuadTreeNode(x + halfWidth, y + halfHeight, halfWidth + remWidth, halfHeight + remHeight);
+    children[1] = new QuadTreeNode(x + halfWidth, y, remWidth, halfHeight);
+    children[2] = new QuadTreeNode(x, y + halfHeight, halfWidth, remHeight);
+    children[3] = new QuadTreeNode(x + halfWidth, y + halfHeight, remWidth, remHeight);
 
     isLeaf = false;
 }
-
 
 void QuadTreeNode::normalize() {
     for (int i = 0; i < 4; ++i) {
