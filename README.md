@@ -8,11 +8,30 @@ Lorem ipsum
 
 ```
 Tucil2_13523009/
-├── bin/           # File hasil kompilasi program
-├── doc/           # Laporan tugas kecil (PDF)
+├── bin/         
+├── doc/           
 │   └── Tucil2_13523009.pdf
-├── src/           # Source code program (C++)
-│   └── main.cpp
+├── images/           
+│   ├── input/
+│   └── output/
+├── src/         
+│   ├── external/
+│   │   ├── gif.hpp
+│   │   └── stb_image.hpp
+│   ├── include/                  # header files
+│   │    ├── QuadtreeNode.hpp
+│   │    ├── ErrorMeasurement.hpp
+│   │    ├── ImageProcessor.hpp
+│   │    ├── QuadtreeCompressor.hpp
+│   │    ├── GifGenerator.hpp      
+│   │    └── Utils.hpp
+│   ├── QuadtreeNode.cpp
+│   ├── ErrorMeasurement.cpp
+│   ├── ImageProcessor.cpp
+│   ├── QuadtreeCompressor.cpp
+│   ├── GifGenerator.cpp      # Untuk bonus
+│   ├── Utils.cpp
+│   └── main.cpp 
 ├── test/          # Contoh file input/output 
 │   ├── input1.txt
 │   └── output1.txt
@@ -25,7 +44,7 @@ Tucil2_13523009/
 Lorem ipsum
 
 ```bash
-
+  g++ -std=c++17 -o bin/quadtree_compressor.exe src/*.cpp -Isrc/include -Isrc/external
 ```
 
 ## ▶️ Cara Menjalankan Program
@@ -33,7 +52,7 @@ Lorem ipsum
 Lorem ipsum
 
 ```bash
-
+  ./bin/quadtree_compressor --input {FILE_INPUT_DIRECTORY} --error-method {} --threshold {} --min-block {} --output {FILE_OUTPUT_DIRECTORY}
 ```
 
 
