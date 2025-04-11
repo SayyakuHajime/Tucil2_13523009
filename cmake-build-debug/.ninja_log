@@ -1,0 +1,10 @@
+# ninja log v6
+5	336	7660682738238020	build.ninja	b37078bf7c9ba077
+10	854	7660157321581171	CMakeFiles/Tucil2_13523009.dir/src/GifGenerator.cpp.obj	fe988dd42e55916c
+17	1821	7660157321643674	CMakeFiles/Tucil2_13523009.dir/src/ImageProcessor.cpp.obj	996580198e0e38eb
+36	610	7660137645358221	CMakeFiles/Tucil2_13523009.dir/src/QuadTreeCompressor.cpp.obj	5d90da313f6df435
+29	637	7660137645298096	CMakeFiles/Tucil2_13523009.dir/src/QuadTree.cpp.obj	6557cd7fd3cdb242
+27	932	7660157321744066	CMakeFiles/Tucil2_13523009.dir/src/Utils.cpp.obj	296dcb5c26bee663
+3	694	7660137645033243	CMakeFiles/Tucil2_13523009.dir/src/ErrorMeasurement.cpp.obj	da2011f234b4d5c
+5	616	7660159399707442	CMakeFiles/Tucil2_13523009.dir/src/main.cpp.obj	6e86e167b541ed9
+616	858	7660159405822432	Tucil2_13523009.exe	f442b42fe76ff681

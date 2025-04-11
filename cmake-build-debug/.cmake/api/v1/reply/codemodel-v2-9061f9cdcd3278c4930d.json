@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a265e33cab9a7f3af1ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Tucil2_13523009",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Tucil2_13523009::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tucil2_13523009-Debug-b8e46ddfd41a4af852d9.json",
+					"name" : "Tucil2_13523009",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug",
+		"source" : "C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

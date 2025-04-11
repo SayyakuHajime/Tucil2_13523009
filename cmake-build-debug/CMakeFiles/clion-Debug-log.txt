@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\hazim\Documents\[0]coding\[1]Semester4\[4]Stima\Tucil\Tucil2_13523009 -B C:\Users\hazim\Documents\[0]coding\[1]Semester4\[4]Stima\Tucil\Tucil2_13523009\cmake-build-debug
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done (2.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug

@@ -1,0 +1,7 @@
+C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug/CMakeFiles/Tucil2_13523009.dir
+C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug/CMakeFiles/install.dir
+C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Users/hazim/Documents/[0]coding/[1]Semester4/[4]Stima/Tucil/Tucil2_13523009/cmake-build-debug/CMakeFiles/install/strip.dir
